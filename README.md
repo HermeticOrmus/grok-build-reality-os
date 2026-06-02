@@ -96,3 +96,14 @@ Part of the Grok-native Reality OS by Hermetic Ormus.
 For turning the full system into your daily personal computer assistant, see **[grok-build-personal-assistant](https://github.com/HermeticOrmus/grok-build-personal-assistant)** — skills for briefs/tasks/comms/memory, agent definitions, MCP examples, integrated with your ormus personal tools.
 
 
+
+
+## Personal Computer Assistant
+
+See the dedicated **[grok-build-personal-assistant](https://github.com/HermeticOrmus/grok-build-personal-assistant)** kit (with setup.sh) for turning this into your full personal computer assistant.
+
+Includes skills for daily-brief, task-orchestrator, file-assistant, personal-memory, comms-assistant, terminal-control (ormus-term), voice-processor (ormus-voice), agent definition for persistent mode, MCP examples, and orchestration of your ormus personal tools (analyst, kalshi, term, voice, recorder, checkin, links, presentations, etc.).
+
+Install via the setup script after cloning for one-command integration with skills and agents.
+
+
