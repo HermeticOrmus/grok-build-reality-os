@@ -90,3 +90,9 @@ MIT © 2026 Diego Bodart — see [LICENSE](LICENSE). Built under the [Gold Hat p
 Part of the Grok-native Reality OS by Hermetic Ormus.
 
 **As the code, so the consciousness.** Use Grok Build to build what elevates.
+
+## Personal Computer Assistant Layer
+
+For turning the full system into your daily personal computer assistant, see **[grok-build-personal-assistant](https://github.com/HermeticOrmus/grok-build-personal-assistant)** — skills for briefs/tasks/comms/memory, agent definitions, MCP examples, integrated with your ormus personal tools.
+
+
