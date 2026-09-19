@@ -50,6 +50,7 @@ Then use the Quick Start below for complementary skills and the user guide.
 | [`user-guide/`](user-guide/) | Official Grok Build user guide (22 chapters) |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to contribute |
 | [`LICENSE`](LICENSE) | MIT |
+| [`SECURITY.md`](SECURITY.md) | How to report vulnerabilities |
 
 ## What's Included
 
@@ -129,3 +130,26 @@ For turning this doctrine into a daily personal computer assistant, use **[grok-
 That kit adds skills for daily brief, task orchestration, file assistance, personal memory, comms, terminal control (`ormus-term`), and voice (`ormus-voice`), plus an agent definition for persistent mode, MCP examples, and orchestration of Ormus personal tools (analyst, kalshi, term, voice, recorder, checkin, links, presentations, and related).
 
 Clone it and run its setup script after this Reality OS install for one-command integration of skills and agents.
+## Libre* Grok Build suite
+
+Domain skill packs melted from Libre*-Claude-Code for Grok Build (v0 scaffolds → melt depth). Doctrine lives here; suites live in sibling repos.
+
+| Suite | Focus |
+|-------|--------|
+| [LibreUIUX-Grok-Build](https://github.com/HermeticOrmus/LibreUIUX-Grok-Build) | UI/UX |
+| [LibreSessionFlow-Grok-Build](https://github.com/HermeticOrmus/LibreSessionFlow-Grok-Build) | Session handoff / pickup |
+| [LibreGEO-Grok-Build](https://github.com/HermeticOrmus/LibreGEO-Grok-Build) | GEO / AI-search / llms.txt |
+| [LibreDevOps-Grok-Build](https://github.com/HermeticOrmus/LibreDevOps-Grok-Build) | DevOps / IaC / CI |
+| [LibreSecOps-Grok-Build](https://github.com/HermeticOrmus/LibreSecOps-Grok-Build) | Defensive SecOps |
+| [LibreEmbed-Grok-Build](https://github.com/HermeticOrmus/LibreEmbed-Grok-Build) | Embedded / firmware / IoT |
+| [LibreGameDev-Grok-Build](https://github.com/HermeticOrmus/LibreGameDev-Grok-Build) | GameDev |
+| [LibreCopy-Grok-Build](https://github.com/HermeticOrmus/LibreCopy-Grok-Build) | Technical writing / docs-as-code |
+| [LibreArch-Grok-Build](https://github.com/HermeticOrmus/LibreArch-Grok-Build) | Architecture / DDD |
+| [LibreMLOps-Grok-Build](https://github.com/HermeticOrmus/LibreMLOps-Grok-Build) | MLOps / LLMOps |
+| [LibreMobileDev-Grok-Build](https://github.com/HermeticOrmus/LibreMobileDev-Grok-Build) | Mobile (Flutter / RN / Swift / Kotlin) |
+| [LibreFinTech-Grok-Build](https://github.com/HermeticOrmus/LibreFinTech-Grok-Build) | FinTech / payments / compliance |
+| [LibreWhatsApp-Grok-Build](https://github.com/HermeticOrmus/LibreWhatsApp-Grok-Build) | WhatsApp-in-session (draft-only, consent) |
+
+**Jev hub:** [ormus-jev](https://github.com/HermeticOrmus/ormus-jev) — TypeSafe Jev teaching pack for Grok Bot.
+
+**Systems map:** [ormus.solutions/systems](https://ormus.solutions/systems)
