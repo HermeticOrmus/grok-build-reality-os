@@ -193,7 +193,7 @@ Configure external tool integrations via the Model Context Protocol.
 [mcp_servers.github]
 command = "npx"
 args = ["-y", "@modelcontextprotocol/server-github"]
-env = { GITHUB_PERSONAL_ACCESS_TOKEN = "ghp_xxx" }
+env = { GITHUB_PERSONAL_ACCESS_TOKEN = "YOUR_GITHUB_PAT" }
 enabled = true                        # enable/disable (default: true)
 startup_timeout_sec = 10              # init timeout (default: 10)
 tool_timeout_sec = 60                 # tool call timeout (default: 60)

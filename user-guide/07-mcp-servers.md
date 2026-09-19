@@ -70,7 +70,7 @@ grok mcp add remote-api --url https://mcp.example.com/api
 
 # Add with environment variables
 grok mcp add github --command npx --args "-y @modelcontextprotocol/server-github" \
-  --env GITHUB_PERSONAL_ACCESS_TOKEN=ghp_xxx
+  --env GITHUB_PERSONAL_ACCESS_TOKEN=YOUR_GITHUB_PAT
 
 # Remove a server
 grok mcp remove my-server

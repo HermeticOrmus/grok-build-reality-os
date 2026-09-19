@@ -122,7 +122,7 @@ api_key = "my-api-key"
 # Override temperature and add a custom API key
 [model.grok-build]
 temperature = 0.5
-api_key = "sk-custom"
+api_key = "YOUR_API_KEY"
 ```
 
 When you override a built-in model, Grok starts with the default configuration (including the correct `base_url`), then applies only the fields you specify. Unspecified fields inherit from the default.
@@ -232,7 +232,7 @@ Point Grok at a custom OpenAI-compatible `/v1/models` endpoint instead of the de
 
 ```bash
 export GROK_MODELS_BASE_URL="https://api.acme.com/v1"
-export GROK_CODE_XAI_API_KEY="xai-..."
+export GROK_CODE_XAI_API_KEY="YOUR_XAI_API_KEY"
 grok
 ```
 

@@ -389,7 +389,7 @@ Key environment variables that affect headless mode:
 For CI environments without browser access, set `XAI_API_KEY` with an API key from [console.x.ai](https://console.x.ai):
 
 ```bash
-export XAI_API_KEY="xai-..."
+export XAI_API_KEY="YOUR_XAI_API_KEY"
 grok -p "Run the test suite" --yolo
 ```
 
@@ -473,7 +473,7 @@ For containers or CI, mount `~/.grok` read-only:
 - Update checks log a warning and skip
 
 ```bash
-export XAI_API_KEY="xai-..."
+export XAI_API_KEY="YOUR_XAI_API_KEY"
 export GROK_DISABLE_UPDATE_CHECK=1
 grok -p "..." --no-project-root --no-auto-update
 ```
