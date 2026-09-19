@@ -24,6 +24,16 @@
 
 This is the Grok-native evolution of the Reality OS — everything you need to run Grok Build sessions with intention, integrity, and power.
 
+## Contents
+
+| Path | What it is |
+|---|---|
+| [`AGENTS.md`](AGENTS.md) | Global doctrine for Grok sessions (Gold Hat + Hermetic principles) |
+| [`GOLD_HAT.md`](GOLD_HAT.md) | Empower-over-extract filter |
+| [`user-guide/`](user-guide/) | Official Grok Build user guide (22 chapters) |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to contribute |
+| [`LICENSE`](LICENSE) | MIT |
+
 ## What's Included
 
 - **AGENTS.md** — The core global doctrine layer for all Grok sessions. Liquid Gold philosophy, Gold Hat principles, 7 Hermetic Principles (Mentalism, Correspondence, Vibration, Polarity, Rhythm, Cause & Effect, Gender), Vibe Engineer triggers, Karpathy discipline.
@@ -48,7 +58,9 @@ git clone https://github.com/HermeticOrmus/claude-exorcist ~/.grok/skills/claude
 # (Grok will pick up AGENTS.md + skills)
 ```
 
-See the included `user-guide/01-getting-started.md` and `AGENTS.md` for details.
+Never put real API keys in this repo. Use env vars / your local secrets store. Placeholders in the user guide are labeled `YOUR_*`.
+
+See [`user-guide/01-getting-started.md`](user-guide/01-getting-started.md), [`user-guide/02-authentication.md`](user-guide/02-authentication.md), and [`AGENTS.md`](AGENTS.md).
 
 ## Relation to the Migration Suite
 
@@ -76,7 +88,7 @@ See `AGENTS.md` for the full operative version. They constrain architecture, pro
 
 ## Contributing
 
-Ship imperfect, iterate in real usage (Vibration). All contributions must pass the Gold Hat and be documented with clear intention (Mentalism).
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). Ship imperfect, iterate in real usage (Vibration). All contributions must pass the Gold Hat and be documented with clear intention (Mentalism).
 
 Pull requests welcome for:
 - Grok Build specific examples and skill ports

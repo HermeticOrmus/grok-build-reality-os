@@ -36,7 +36,7 @@ Available flags:
 For CI/CD, automation, or environments without browser access, use an API key from [console.x.ai](https://console.x.ai):
 
 ```bash
-export XAI_API_KEY="xai-..."
+export XAI_API_KEY="YOUR_XAI_API_KEY"
 grok
 ```
 

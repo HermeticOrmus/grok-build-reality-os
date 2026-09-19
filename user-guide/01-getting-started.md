@@ -61,7 +61,7 @@ On first launch, Grok opens your browser to authenticate with grok.com. Once you
 If you prefer API key authentication (e.g., for CI/CD or environments without a browser), set the `XAI_API_KEY` environment variable instead:
 
 ```bash
-export XAI_API_KEY="xai-..."
+export XAI_API_KEY="YOUR_XAI_API_KEY"
 grok
 ```
 
