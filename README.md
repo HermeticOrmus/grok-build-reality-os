@@ -24,6 +24,23 @@
 
 This is the Grok-native evolution of the Reality OS — everything you need to run Grok Build sessions with intention, integrity, and power.
 
+## Start here
+
+1. Clone this repo (or browse it on GitHub).
+2. Copy the doctrine into your Grok Build environment:
+
+```bash
+git clone https://github.com/HermeticOrmus/grok-build-reality-os ~/.grok/reality-os
+cp ~/.grok/reality-os/AGENTS.md ~/.grok/AGENTS.md
+# or per project:
+# cp ~/.grok/reality-os/AGENTS.md .grok/AGENTS.md
+```
+
+3. Read [`AGENTS.md`](AGENTS.md) — that file is the operating layer.
+4. Adopt the constraint: [gold-hat-manifesto](https://github.com/HermeticOrmus/gold-hat-manifesto) (empower or extract?).
+
+Then use the Quick Start below for complementary skills and the user guide.
+
 ## What's Included
 
 - **AGENTS.md** — The core global doctrine layer for all Grok sessions. Liquid Gold philosophy, Gold Hat principles, 7 Hermetic Principles (Mentalism, Correspondence, Vibration, Polarity, Rhythm, Cause & Effect, Gender), Vibe Engineer triggers, Karpathy discipline.
@@ -61,6 +78,8 @@ Reality OS gives you the *why* and the *how* to operate at the highest level on 
 
 ## Gold Hat Filter (Always On)
 
+Canonical statement: [gold-hat-manifesto](https://github.com/HermeticOrmus/gold-hat-manifesto).
+
 Every artifact, skill, and decision here passes:
 - Empower users
 - Teach while helping
@@ -85,25 +104,16 @@ Pull requests welcome for:
 
 ## License
 
-MIT © 2026 Diego Bodart — see [LICENSE](LICENSE). Built under the [Gold Hat principle](GOLD_HAT.md).
+MIT © 2026 Diego Bodart — see [LICENSE](LICENSE). Built under the [Gold Hat principle](https://github.com/HermeticOrmus/gold-hat-manifesto) ([local GOLD_HAT.md](GOLD_HAT.md)).
 
 Part of the Grok-native Reality OS by Hermetic Ormus.
 
 **As the code, so the consciousness.** Use Grok Build to build what elevates.
 
-## Personal Computer Assistant Layer
-
-For turning the full system into your daily personal computer assistant, see **[grok-build-personal-assistant](https://github.com/HermeticOrmus/grok-build-personal-assistant)** — skills for briefs/tasks/comms/memory, agent definitions, MCP examples, integrated with your ormus personal tools.
-
-
-
-
 ## Personal Computer Assistant
 
-See the dedicated **[grok-build-personal-assistant](https://github.com/HermeticOrmus/grok-build-personal-assistant)** kit (with setup.sh) for turning this into your full personal computer assistant.
+For turning this doctrine into a daily personal computer assistant, use **[grok-build-personal-assistant](https://github.com/HermeticOrmus/grok-build-personal-assistant)** (includes `setup.sh`).
 
-Includes skills for daily-brief, task-orchestrator, file-assistant, personal-memory, comms-assistant, terminal-control (ormus-term), voice-processor (ormus-voice), agent definition for persistent mode, MCP examples, and orchestration of your ormus personal tools (analyst, kalshi, term, voice, recorder, checkin, links, presentations, etc.).
+That kit adds skills for daily brief, task orchestration, file assistance, personal memory, comms, terminal control (`ormus-term`), and voice (`ormus-voice`), plus an agent definition for persistent mode, MCP examples, and orchestration of Ormus personal tools (analyst, kalshi, term, voice, recorder, checkin, links, presentations, and related).
 
-Install via the setup script after cloning for one-command integration with skills and agents.
-
-
+Clone it and run its setup script after this Reality OS install for one-command integration of skills and agents.
