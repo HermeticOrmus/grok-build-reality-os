@@ -126,7 +126,7 @@ Beyond the base ACP protocol, Grok defines extension methods under the `x.ai/` p
 | **Authentication**         | `x.ai/auth/*`        | `get_url`, `submit_code`                         |
 | **Feedback & Telemetry**   | `x.ai/*`             | `feedback`, `telemetry/*`                        |
 
-The full extension methods catalog with 72 methods is documented in `ACP_EXTENSION_METHODS.md`.
+The tables here show representative methods. The `x.ai/*` set may expand across releases; treat it as non-exhaustive and discover available methods from the agent's `initialize` response.
 
 ### Notifications (Agent to Client)
 
@@ -271,4 +271,3 @@ for await (const update of client.streamPrompt("List the files in this project")
 
 - [ACP Specification](https://agentclientprotocol.com/protocol/prompt-turn)
 - [Protocol Introduction](https://agentclientprotocol.com/overview/introduction)
-- [Extension Methods Reference](../../xai-grok-shell/ACP_EXTENSION_METHODS.md) -- full catalog of 72 `x.ai/*` methods

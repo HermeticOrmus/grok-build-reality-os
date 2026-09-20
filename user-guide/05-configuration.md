@@ -282,7 +282,7 @@ mcps = true       # scan ~/.claude.json for MCP servers
 hooks = true      # scan ~/.claude/settings.json for hooks
 ```
 
-Each cell can also be toggled via environment variable (highest precedence) or remote feature flag (lowest). See [Environment Variables](../internal/22-environment-variables.md#vendor-compatibility) for the env var names. Resolution order: env var > config.toml > feature flag > default (on).
+Each cell can also be toggled via environment variable (highest precedence) or remote feature flag (lowest). See [Environment Variables](#environment-variables) for the env vars documented in this snapshot. Use `grok inspect` for the resolved names. Resolution order: env var > config.toml > feature flag > default (on).
 
 Use `grok inspect` to see the resolved harness compatibility state and which entries come from which vendor. Disabled entries show `[disabled]` tags.
 
