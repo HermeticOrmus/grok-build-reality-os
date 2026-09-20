@@ -49,6 +49,7 @@ Then use the Quick Start below for complementary skills and the user guide.
 | [`GOLD_HAT.md`](GOLD_HAT.md) | Empower-over-extract filter |
 | [`user-guide/`](user-guide/) | Official Grok Build user guide (22 chapters) |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to contribute |
+| [`docs/QUALITY_LADDER.md`](docs/QUALITY_LADDER.md) | Quality ladder L0–L5 |
 | [`LICENSE`](LICENSE) | MIT |
 | [`SECURITY.md`](SECURITY.md) | How to report vulnerabilities |
 
@@ -102,6 +103,12 @@ Every artifact, skill, and decision here passes:
 
 Never: dark patterns, surveillance, addiction mechanics, quick fixes, patching symptoms.
 
+## Depth / quality
+
+Public Grok Build repos in this suite use a shared ladder: **L0–L5**. Definitions live in [`docs/QUALITY_LADDER.md`](docs/QUALITY_LADDER.md).
+
+This hub is doctrine plus a user-guide snapshot. Hermetic extensions are still to-be-expanded. This pass targets **L4 hygiene** (SECURITY linked, suite map complete, broken links fixed, no inflated claims). It does not claim L5.
+
 ## The 7 Hermetic Principles (as Code)
 
 See `AGENTS.md` for the full operative version. They constrain architecture, prompts, skills, and products.
@@ -130,6 +137,7 @@ For turning this doctrine into a daily personal computer assistant, use **[grok-
 That kit adds skills for daily brief, task orchestration, file assistance, personal memory, comms, terminal control (`ormus-term`), and voice (`ormus-voice`), plus an agent definition for persistent mode, MCP examples, and orchestration of Ormus personal tools (analyst, kalshi, term, voice, recorder, checkin, links, presentations, and related).
 
 Clone it and run its setup script after this Reality OS install for one-command integration of skills and agents.
+
 ## Libre* Grok Build suite
 
 Domain skill packs melted from Libre*-Claude-Code for Grok Build (v0 scaffolds → melt depth). Doctrine lives here; suites live in sibling repos.

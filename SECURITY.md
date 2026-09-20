@@ -16,3 +16,5 @@ This repository is primarily doctrine, user guides, and documentation for Grok B
 
 - [GOLD_HAT.md](GOLD_HAT.md)
 - [gold-hat-manifesto](https://github.com/HermeticOrmus/gold-hat-manifesto)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [docs/QUALITY_LADDER.md](docs/QUALITY_LADDER.md)
